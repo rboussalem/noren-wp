@@ -1,0 +1,108 @@
+/* Start contact-us Content */
+
+.contact-us {
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.contact-us .contact-us-box {
+    width: 960px;
+    height: 206px;
+    padding: 40px 58px 20px; 
+    border-radius: 50px;
+    background-color: #fcbc14;
+    position: relative
+}
+
+.contact-us .contact-us-box h2 {
+    font-family: 'Gilroy-Bold';
+    font-size: 32px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.94;
+    letter-spacing: -0.51px;
+    color: #ffffff
+}
+
+.contact-us .contact-us-box img {
+    position: absolute;
+    top: -170px;
+    left: 712px
+}
+
+.contact-us .contact-us-box span {
+    display: inline-block;
+    border-radius: 50%
+}
+
+.contact-us .contact-us-box span:nth-child(3) {
+    width: 13px;
+    height: 13px;
+    background-color: #eeedf2;
+    position: absolute;
+    top: -69px;
+    right: 237px
+}
+
+.contact-us .contact-us-box span:nth-child(4) {
+    width: 15px;
+    height: 15px;
+    background-color: #917fe5;
+    position: absolute;
+    top: -169px;
+    right: 144px
+}
+
+.contact-us .contact-us-box span:nth-child(5) {
+    width: 28px;
+    height: 28px;
+    background-color: #fcbc14;
+    position: absolute;
+    top: -139px;
+    right: 220px
+}
+
+.contact-us .contact-us-box .form-box input {
+    width: 272px;
+    height: 59px;
+    padding: 22px 135px 21px 23px;
+    border-radius: 29.5px;
+    background-color: rgba(255, 255, 255, 0.22);
+    border: none;
+    outline: none
+}
+
+.contact-us .contact-us-box .form-box input::placeholder {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.26px;
+    color: #fffcf8
+}
+
+.contact-us .contact-us-box .form-box button {
+    width: 117px;
+    height: 59px;
+    padding: 20px 37px 20px 38px;
+    border-radius: 29.5px;
+    background-color: #ffffff;
+    border: none;
+    outline: none
+}
+
+.contact-us .contact-us-box .form-box button span {
+    width: 42px;
+    height: 19px;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 19px;
+    letter-spacing: -0.29px;
+    color: #2d2e2e
+}
+
+/* End contact-us Content */

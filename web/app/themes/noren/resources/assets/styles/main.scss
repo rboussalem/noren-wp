@@ -1,0 +1,32 @@
+@import "common/variables";
+@import "common/fonts";
+
+/** Import everything from autoload */
+@import "./autoload/**/*";
+
+/**
+ * Import npm dependencies
+ *
+ * Prefix your imports with `~` to grab from node_modules/
+ * @see https://github.com/webpack-contrib/sass-loader#imports
+ */
+// @import "~some-node-module";
+
+/** Import theme styles */
+// @import "common/global";
+// @import "components/buttons";
+// @import "components/comments";
+// @import "components/forms";
+// @import "components/wp-classes";
+
+
+
+
+@import "layouts/header";
+@import "layouts/mark";
+@import "layouts/posts";
+@import "layouts/our-number";
+@import "layouts/blog";
+@import "layouts/testmonial";
+@import "layouts/contact-us";
+@import "layouts/footer";

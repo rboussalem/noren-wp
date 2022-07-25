@@ -1,0 +1,314 @@
+/* Start post Content */
+
+.post {
+    padding-top: 80px;
+    padding-bottom: 35px;
+}
+
+.image-box {
+    width: 90%;
+    height: 361px;
+    margin: 0 0 258px;
+    border-radius: 52px;
+    background-color: #f8f8f8;
+    position: relative
+}
+
+@media (min-width: 576px) { 
+    .image-box {
+        width: 462px;
+        margin: 15px 15px 258px 9px;
+    }
+}
+
+.image-box .image-box-content {
+    width: 88%;
+    height: 690px;
+    object-fit: contain;
+    position: absolute;
+    top: -71px;
+}
+
+@media (min-width: 768px) { 
+    .image-box .image-box-content {
+        left: 62px
+    }
+}
+
+.image-box .image-box-content img {
+    width: 100%;
+}
+
+.image-box span:nth-child(2) {
+    width: 18px;
+    height: 18px;
+    background-color: #9acf61;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: 13px
+}
+
+.image-box span:nth-child(3) {
+    width: 18px;
+    height: 18px;
+    background-color: #917fe5;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 14px;
+    left: -9px
+}
+
+.image-box span:last-child {
+    width: 30px;
+    height: 30px;
+    background-color: #fcbc14;
+    display: inline-block;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 72px;
+    left: calc(100% - 15px)
+}
+
+.content-box {
+    padding: 10px
+}
+
+.content-box h2 {
+    margin: 30px auto;
+    font-family: 'Gilroy-Bold';
+    margin: 28px auto;
+    font-size: 38px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.03;
+    letter-spacing: -0.96px;
+    color: #2d2d2d;
+    text-align: center
+}
+
+@media (min-width: 992px){
+    .content-box h2 {
+        height: 74px;
+        margin: 30px 63px;
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .content-box h2 {
+        width: 454px;
+        margin: 30px 88px 48px 63px;
+    }
+}
+
+
+.content-box p {
+    margin: 28px auto;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.11;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    text-align: center;
+    width: 80%;
+    text-align: left;
+}
+
+@media (min-width: 992px) {
+    .content-box p {
+        height: 74px;
+        margin: 30px 63px;
+        text-align: left
+    }
+}
+
+
+@media (min-width: 1200px) { 
+    .content-box p {
+        width: 454px;
+        margin: 30px 88px 48px 63px
+    }
+}
+
+
+.content-box .feature-box {
+    margin: 13px auto;
+    padding: 31px 20px 14px 30px;
+    border-radius: 30px;
+    transition: .3s;
+    background-color: #ffffff;
+    display: flex
+}
+
+@media (min-width: 768px) { 
+    .content-box .feature-box {
+        width: 90%;
+        min-height: 100px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .content-box .feature-box {
+        height: 135px;
+        margin: 13px 0 26px 32px;
+        padding: 31px 20px 14px 30px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .content-box .feature-box {
+        width: 493px;
+        height: 135px;
+        margin: 13px 0 26px 32px;
+        padding: 31px 20px 14px 30px;
+    }
+}
+
+.content-box .feature-box:hover {
+    box-shadow: 0 16px 85px 0 rgba(189, 223, 246, 0.45);
+    cursor: pointer
+}
+
+.content-box .feature-box > p {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #2d2d2d;
+    width: 70%;
+    text-align: left
+}
+
+@media (min-width: 768px) { 
+    .content-box .feature-box > p {
+        width: 80%
+    }
+}
+
+@media (min-width: 992px) { 
+    .content-box .feature-box > p{
+        width: 70%;
+        height: 74px;
+        margin: 7px 0 7px 19px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1200px) { 
+    .content-box .feature-box > p{
+        width: 365px;
+    }
+}
+
+
+.content-box .feature-box .left-box {
+    position: relative;
+    flex-grow: 1
+}
+
+.content-box .feature-box .left-box span.index {
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+@media (min-width: 992px) { 
+    .content-box .feature-box .left-box span.index{
+        width: 58px;
+        height: 58px;
+        padding: 18px 26px 20px 24px;
+        border-radius: 29px;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 3
+    }
+}
+
+.content-box .feature-box .left-box span.index span {
+    width: 39px;
+    height: 39px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 39px;
+    text-align: center;
+}
+
+@media (min-width: 992px) { 
+    .content-box .feature-box .left-box span.index span {
+        width: 8px;
+        height: 20px;
+        font-size: 20px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+        display: inline-block
+    }
+}
+
+.content-box .feature-box:nth-child(3) span.index {
+    background-color: #f4dda0
+}
+
+.content-box .feature-box:nth-child(4) span.index {
+    background-color: #bcd5fc
+}
+
+.content-box .feature-box:last-child span.index {
+    background-color: #fac2cf
+}
+
+.content-box .feature-box .left-box > span:not(.index) {
+    width: 39px;
+    height: 60px;
+    border-radius: 29px;
+    background-color: #f9f8f8;
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+@media (min-width: 992px) { 
+    .content-box .feature-box .left-box > span:not(.index){
+        width: 58px;
+        height: 88px;
+        margin: 0 19px 0 0;
+        padding: 0 0 30px;
+        border-radius: 29px;
+        background-color: #f9f8f8;
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1
+    }
+}
+
+
+/* End post Content */
